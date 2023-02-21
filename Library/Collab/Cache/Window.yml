@@ -1,0 +1,753 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/AssetStorePackages.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitEquipments_Screens.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitEquipments_Screens.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitEquipments_TargetScreens.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitEquipments_TargetScreens.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitsEquipments.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitsEquipments.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey/Cockpit3Grey.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey/Cockpit3Grey.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey/Cockpit3Grey_Glass.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey/Cockpit3Grey_Glass.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey/Cockpit3Grey_interior.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey/Cockpit3Grey_interior.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Red.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Red/Cockpit3Red.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Red/Cockpit3Red.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Red/Cockpit3Red_Glass.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Red/Cockpit3Red_Glass.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Red/Cockpit3Red_interior.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Red/Cockpit3Red_interior.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Engines.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Engines/Grey.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Engines/Grey/Engine1.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Engines/Grey/Engine1.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Engines/Red.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Engines/Red/Engine1.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Engines/Red/Engine1.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Engines/Thrusters.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Engines/Thrusters/Thrusters1.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Engines/Thrusters/Thrusters1.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/MainBodies.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Grey.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Grey/MainBody13.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Grey/MainBody13.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Grey/MainBody2.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Grey/MainBody2.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Red.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Red/MainBody13.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Red/MainBody13.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Red/MainBody2.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Red/MainBody2.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/SpaceBG.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/SpaceBG.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Weapons.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Weapons/BigLauncher.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Weapons/BigLauncher.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Weapons/Blaster.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Weapons/Blaster.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Wings.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Wings/Grey.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Wings/Grey/Wing2.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Wings/Grey/Wing2.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Wings/Grey/Wing6.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Wings/Grey/Wing6.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Wings/Red.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Wings/Red/Wing2.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Wings/Red/Wing2.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Wings/Red/Wing6.mat
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Materials/Wings/Red/Wing6.mat.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Meshes.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Meshes/FreeExampleModules.FBX
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Meshes/FreeExampleModules.FBX.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example1_Grey.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example1_Grey.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example1_Red.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example1_Red.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example2_Grey.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example2_Grey.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example3_Red.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example3_Red.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example4_Grey.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example4_Grey.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example5_Grey.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example5_Grey.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example1NoInterior_Grey.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example1NoInterior_Grey.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example1NoInterior_Red.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example1NoInterior_Red.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example2NoInterior_Grey.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example2NoInterior_Grey.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example3NoInterior_Red.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example3NoInterior_Red.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example4NoInterior_Grey.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example4NoInterior_Grey.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example5_NoInteriorGrey.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example5_NoInteriorGrey.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Big_Launcher.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Big_Launcher.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Blaster.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Blaster.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Cockpit3_WithInterior.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Cockpit3_WithInterior.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Cockpit3_WithoutInterior.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Cockpit3_WithoutInterior.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Engine1.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Engine1.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13_Mirrored.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13_Mirrored.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody2.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody2.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing2.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing2.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing2_Mirrored.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing2_Mirrored.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing6.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing6.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing6_Mirrored.prefab
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing6_Mirrored.prefab.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Readme.txt
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Readme.txt.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/SRP.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/SRP/HDRP_Upgrade.unitypackage
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/SRP/HDRP_Upgrade.unitypackage.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/SRP/URP_Materials.unitypackage
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/SRP/URP_Materials.unitypackage.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Scenes.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Scenes/Examples.unity
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Scenes/Examples.unity.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Scenes/LightingSettings.lighting
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Scenes/LightingSettings.lighting.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Scenes/Modules.unity
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Scenes/Modules.unity.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3(interior)_Grey.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3(interior)_Grey.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3(interior)_MetallicSmoothness.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3(interior)_MetallicSmoothness.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3(interior)_Normal.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3(interior)_Normal.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3(interior)_Red.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3(interior)_Red.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_Emission.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_Emission.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_Grey.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_Grey.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_MetallicSmoothness.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_MetallicSmoothness.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_Normal.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_Normal.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_Red.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_Red.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3(interior)_Mask1.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3(interior)_Mask1.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3(interior)_Mask2.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3(interior)_Mask2.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3(interior)_Neutral.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3(interior)_Neutral.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3_Mask1.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3_Mask1.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3_Mask2.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3_Mask2.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3_Neutral.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3_Neutral.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitEquipments-Screens.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitEquipments-Screens.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitsEquipments_Albedo.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitsEquipments_Albedo.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitsEquipments_MetallicSmoothness.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitsEquipments_MetallicSmoothness.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitsEquipmentsl_Normal.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitsEquipmentsl_Normal.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Mask1.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Mask1.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Mask2.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Mask2.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Mask3.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Mask3.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Neutral.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Neutral.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Engine1_Grey.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Engine1_Grey.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Engine1_MetallicSmoothness.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Engine1_MetallicSmoothness.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Engine1_Normal.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Engine1_Normal.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Engine1_Red.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Engine1_Red.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks/Engine1_Mask1.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks/Engine1_Mask1.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks/Engine1_Mask2.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks/Engine1_Mask2.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks/Engine1_Neutral.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks/Engine1_Neutral.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters/Thrusters_Albedo.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters/Thrusters_Albedo.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters/Thrusters_Emission1.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters/Thrusters_Emission1.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters/Thrusters_MetallicSmoothness.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters/Thrusters_MetallicSmoothness.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters/Thrusters_Normal.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters/Thrusters_Normal.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/MainBody13_Grey.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/MainBody13_Grey.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/MainBody13_MetallicSmoothness.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/MainBody13_MetallicSmoothness.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/MainBody13_Normal.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/MainBody13_Normal.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/MainBody13_Red.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/MainBody13_Red.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/Masks.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/Masks/MainBody13_Mask1.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/Masks/MainBody13_Mask1.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/Masks/MainBody13_Mask2.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/Masks/MainBody13_Mask2.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/Masks/MainBody13_Neutral.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/Masks/MainBody13_Neutral.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_Grey.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_Grey.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_MetallicSmoothness.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_MetallicSmoothness.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_Normal.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_Normal.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_Red.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_Red.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/Masks.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/Masks/MainBody2_Mask1.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/Masks/MainBody2_Mask1.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/Masks/MainBody2_Mask2.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/Masks/MainBody2_Mask2.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/Masks/MainBody2_Neutral.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/Masks/MainBody2_Neutral.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/SpaceBackground.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/SpaceBackground.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/BigLauncher_Albedo.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/BigLauncher_Albedo.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/BigLauncher_MetallicSmoothness.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/BigLauncher_MetallicSmoothness.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/BigLauncher_Normal.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/BigLauncher_Normal.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/Masks.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/Masks/BigLauncher_Mask1.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/Masks/BigLauncher_Mask1.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/Masks/BigLauncher_Mask2.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/Masks/BigLauncher_Mask2.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/Masks/BigLauncher_Neutral.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher/Masks/BigLauncher_Neutral.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Blaster_Albedo.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Blaster_Albedo.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Blaster_MetallicSmoothness.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Blaster_MetallicSmoothness.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Blaster_Normal.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Blaster_Normal.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks/Blaster_Mask1.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks/Blaster_Mask1.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks/Blaster_Mask2.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks/Blaster_Mask2.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks/Blaster_Neutral.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks/Blaster_Neutral.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Masks.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Masks/Wing2_Mask1.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Masks/Wing2_Mask1.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Masks/Wing2_Mask2.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Masks/Wing2_Mask2.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Masks/Wing2_Neutral.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Masks/Wing2_Neutral.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Wing2_Grey.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Wing2_Grey.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Wing2_MetallicSmoothness.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Wing2_MetallicSmoothness.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Wing2_Normal.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Wing2_Normal.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Wing2_Red.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Wing2_Red.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Masks.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Masks/Wing6_Mask1.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Masks/Wing6_Mask1.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Masks/Wing6_Mask2.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Masks/Wing6_Mask2.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Masks/Wing6_Neutral.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Masks/Wing6_Neutral.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_Grey.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_Grey.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_MetallicSmoothness.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_MetallicSmoothness.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_Normal.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_Normal.png.meta
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_Red.png
+    - Assets/AssetStorePackages/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_Red.png.meta
+    - Assets/AssetStorePackages/SF_Fighter.meta
+    - Assets/AssetStorePackages/SF_Fighter/Materials.meta
+    - Assets/AssetStorePackages/SF_Fighter/Materials/SciFi_Fighters-Fleet.mat
+    - Assets/AssetStorePackages/SF_Fighter/Materials/SciFi_Fighters-Fleet.mat.meta
+    - Assets/AssetStorePackages/SF_Fighter/Meshes.meta
+    - Assets/AssetStorePackages/SF_Fighter/Meshes/Materials.meta
+    - Assets/AssetStorePackages/SF_Fighter/Meshes/Materials/SciFi_Fighters-Fleet.mat
+    - Assets/AssetStorePackages/SF_Fighter/Meshes/Materials/SciFi_Fighters-Fleet.mat.meta
+    - Assets/AssetStorePackages/SF_Fighter/Meshes/SF_Free-Fighter.FBX
+    - Assets/AssetStorePackages/SF_Fighter/Meshes/SF_Free-Fighter.FBX.meta
+    - Assets/AssetStorePackages/SF_Fighter/SF_Fighter.unity
+    - Assets/AssetStorePackages/SF_Fighter/SF_Fighter.unity.meta
+    - Assets/AssetStorePackages/SF_Fighter/SF_FighterSettings.lighting
+    - Assets/AssetStorePackages/SF_Fighter/SF_FighterSettings.lighting.meta
+    - Assets/AssetStorePackages/SF_Fighter/SF_Free-Fighter.FBX
+    - Assets/AssetStorePackages/SF_Fighter/SF_Free-Fighter.FBX.meta
+    - Assets/AssetStorePackages/SF_Fighter/SF_Free-Fighter.prefab
+    - Assets/AssetStorePackages/SF_Fighter/SF_Free-Fighter.prefab.meta
+    - Assets/AssetStorePackages/SF_Fighter/Textures.meta
+    - Assets/AssetStorePackages/SF_Fighter/Textures/SF_Fighter-Albedo.tif
+    - Assets/AssetStorePackages/SF_Fighter/Textures/SF_Fighter-Albedo.tif.meta
+    - Assets/AssetStorePackages/SF_Fighter/Textures/SF_Fighter-Gloss.tif
+    - Assets/AssetStorePackages/SF_Fighter/Textures/SF_Fighter-Gloss.tif.meta
+    - Assets/AssetStorePackages/SF_Fighter/Textures/SF_Fighter-Glow.tif
+    - Assets/AssetStorePackages/SF_Fighter/Textures/SF_Fighter-Glow.tif.meta
+    - Assets/AssetStorePackages/SF_Fighter/Textures/SF_Fighter-Normal.tif
+    - Assets/AssetStorePackages/SF_Fighter/Textures/SF_Fighter-Normal.tif.meta
+    - Assets/AssetStorePackages/SF_Fighter/Textures/SF_Fighter-Specular.tif
+    - Assets/AssetStorePackages/SF_Fighter/Textures/SF_Fighter-Specular.tif.meta
+    - Assets/AssetStorePackages/SpaceSkies Free.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Pink_2K_Resolution.mat
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Pink_2K_Resolution.mat.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution/Back_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution/Back_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution/Down_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution/Down_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution/Front_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution/Front_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution/Left_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution/Left_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution/Right_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution/Right_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution/Up_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_1/Textures/2K_Resolution/Up_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Green_2K_Resoution.mat
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Green_2K_Resoution.mat.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution/Back_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution/Back_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution/Down_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution/Down_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution/Front_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution/Front_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution/Left_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution/Left_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution/Right_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution/Right_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution/Up_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_2/Textures/2K_Resolution/Up_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Purple_2K_Resolution.mat
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Purple_2K_Resolution.mat.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution/Back_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution/Back_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution/Down_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution/Down_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution/Front_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution/Front_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution/Left_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution/Left_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution/Right_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution/Right_2K_TEX.png.meta
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution/Up_2K_TEX.png
+    - Assets/AssetStorePackages/SpaceSkies Free/Skybox_3/Textures/2K_Resolution/Up_2K_TEX.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_01.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_01.unity
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_01.unity.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_01/LightingData.asset
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_01/LightingData.asset.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_01/ReflectionProbe-0.exr
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_01/ReflectionProbe-0.exr.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_01Settings.lighting
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_01Settings.lighting.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help
+      For One Shoot.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help
+      For One Shoot.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help
+      For Particle Delay.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help
+      For Particle Delay.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help
+      Readme SOS.txt
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Help
+      Readme SOS.txt.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/InstanceExample.cs
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/InstanceExample.cs.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Instanciate_01.unity
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Instanciate_01.unity.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Instanciate_01Settings.lighting
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/Instanciate_01Settings.lighting.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs/Emitter_For_Instance_OneShoot_A.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs/Emitter_For_Instance_OneShoot_A.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs/Emitter_For_Instance_OneShoot_B.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/Example_02/_Prefabs/Emitter_For_Instance_OneShoot_B.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Help
+      Readme SOS.txt
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Help
+      Readme SOS.txt.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle
+      For One Shoot.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle
+      For One Shoot.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle
+      Loop Remove.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle
+      Loop Remove.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle
+      Start Delay Remove.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_FAQ - Informations/Particle
+      Start Delay Remove.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_01.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_01.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_01_8x4-32.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_01_8x4-32.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_02.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_02.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_02_8x6-48.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_02_8x6-48.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_03.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_03.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_03_8x4-32.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_03_8x4-32.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_04.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_04.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_04_8x4-32.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_04_8x4-32.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_05.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_05.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_05_8x8-64.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_05_8x8-64.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_06.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_06.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_06_8x6-48.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_06_8x6-48.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_07.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_07.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_07_8x8-64.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_07_8x8-64.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_08.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_08.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_08_8x4-32.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Effect_08_8x4-32.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Skybox.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Materials/Skybox.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_01.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_01.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_02.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_02.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_03.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_03.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_04.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_04.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_05.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_05.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_06.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_06.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_07.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_07.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_08.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Effect_08.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Logo.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Prefabs/Logo.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/FBX_Importer.preset
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/FBX_Importer.preset.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Floor_Angle_01.FBX
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Floor_Angle_01.FBX.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Floor_Normal_01.FBX
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Floor_Normal_01.FBX.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Floor_Normal_02.FBX
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Floor_Normal_02.FBX.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Lighting
+      Settings.lighting
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Lighting
+      Settings.lighting.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials/Hard_Surface_01_Alpha.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials/Hard_Surface_01_Alpha.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials/Hard_Surface_01_Grey_A.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials/Hard_Surface_01_Grey_A.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials/Hard_Surface_01_Grey_B.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials/Hard_Surface_01_Grey_B.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials/Hard_Surface_01_Red.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials/Hard_Surface_01_Red.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials/Hard_Surface_01_White.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials/Hard_Surface_01_White.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials/Logo.mat
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Materials/Logo.mat.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Podium_01.FBX
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Podium_01.FBX.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Podium_02.FBX
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Podium_02.FBX.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Roof_Hole_01.FBX
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Roof_Hole_01.FBX.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Roof_Normal_01.FBX
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Roof_Normal_01.FBX.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Wall_Angle_01.FBX
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Wall_Angle_01.FBX.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Wall_Normal_01.FBX
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Meshes/Wall_Normal_01.FBX.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Corridor_End.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Corridor_End.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Corridor_Part_01.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Corridor_Part_01.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Floor_Angle_01.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Floor_Angle_01.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Floor_Normal_01.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Floor_Normal_01.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Floor_Normal_02.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Floor_Normal_02.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Logo.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Logo.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Podium_01.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Podium_01.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Podium_02.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Podium_02.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Roof_Hole_01.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Roof_Hole_01.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Roof_Normal_01.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Roof_Normal_01.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Showroom_01.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Showroom_01.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Wall_Angle_01.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Wall_Angle_01.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Wall_Normal_01.prefab
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Prefabs/P_Wall_Normal_01.prefab.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Scenes.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Scenes/Camera
+      Profile.asset
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Scenes/Camera
+      Profile.asset.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Ao.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Ao.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Dif.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Dif.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Illum.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Illum.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Metal.tif
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Metal.tif.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Norm.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Norm.png.meta
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Logo.png
+    - Assets/AssetStorePackages/_Creepy_Cat/3D Games Effects Pack Free/_Showroom/Textures/Logo.png.meta
+    - Assets/Plugins.meta
+    - Assets/Plugins/Sirenix.meta
+    - Assets/Plugins/Sirenix/Assemblies.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.pdb
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.pdb.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.pdb
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.pdb.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.pdb
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.pdb.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.pdb
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.pdb.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.pdb
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.pdb.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.pdb
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.pdb.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinValidator.Editor.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinValidator.Editor.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinValidator.Editor.pdb
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinValidator.Editor.pdb.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinValidator.Editor.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinValidator.Editor.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.pdb
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.pdb.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.pdb
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.pdb.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.pdb
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.pdb.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.pdb
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.pdb.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/link.xml
+    - Assets/Plugins/Sirenix/Assemblies/link.xml.meta
+    - Assets/Plugins/Sirenix/Odin Inspector.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/Bootstrap License.txt
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/Bootstrap License.txt.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/ConfigData.bytes
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/ConfigData.bytes.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/SdfIconAtlas.png
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/SdfIconAtlas.png.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Resources.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Localization.data
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Localization.data.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.data
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.data.meta
+    - Assets/Plugins/Sirenix/Odin Validator.meta
+    - Assets/Plugins/Sirenix/Odin Validator/Editor.meta
+    - Assets/Plugins/Sirenix/Odin Validator/Editor/Config.meta
+    - Assets/Plugins/Sirenix/Odin Validator/Editor/Config/AutomationConfig.asset
+    - Assets/Plugins/Sirenix/Odin Validator/Editor/Config/AutomationConfig.asset.meta
+    - Assets/Plugins/Sirenix/Odin Validator/Editor/Config/GlobalValidationConfig.asset
+    - Assets/Plugins/Sirenix/Odin Validator/Editor/Config/GlobalValidationConfig.asset.meta
+    - Assets/Plugins/Sirenix/Odin Validator/Editor/Config/RuleConfig.asset
+    - Assets/Plugins/Sirenix/Odin Validator/Editor/Config/RuleConfig.asset.meta
+    - Assets/Plugins/Sirenix/Odin Validator/Editor/Profiles.meta
+    - Assets/Plugins/Sirenix/Odin Validator/Editor/Profiles/Main Profile.asset
+    - Assets/Plugins/Sirenix/Odin Validator/Editor/Profiles/Main Profile.asset.meta
+    - Assets/Plugins/Sirenix/Odin Validator/EnsureCorrectOdinVersion.cs
+    - Assets/Plugins/Sirenix/Odin Validator/EnsureCorrectOdinVersion.cs.meta
+    - Assets/Plugins/Sirenix/Odin Validator/Readme.txt
+    - Assets/Plugins/Sirenix/Odin Validator/Readme.txt.meta
+    - Assets/_project.meta
+    - Assets/_project/Materials.meta
+    - Assets/_project/Prefabs.meta
+    - Assets/_project/Prefabs/Escort Fighter.prefab
+    - Assets/_project/Prefabs/Escort Fighter.prefab.meta
+    - Assets/_project/Scenes.meta
+    - Assets/_project/Scenes/Main.unity
+    - Assets/_project/Scenes/Main.unity.meta
+    - Assets/_project/Scripts.meta
+    - Assets/_project/Scripts/3DSpaceShooter.asmdef
+    - Assets/_project/Scripts/3DSpaceShooter.asmdef.meta
+    - Assets/_project/Scripts/MatchRotation.cs
+    - Assets/_project/Scripts/MatchRotation.cs.meta
+    - Assets/_project/Scripts/ShipControls.meta
+    - Assets/_project/Scripts/ShipControls/ShipController.cs
+    - Assets/_project/Scripts/ShipControls/ShipController.cs.meta
+    - Assets/_project/Scripts/SkyboxSetter.cs
+    - Assets/_project/Scripts/SkyboxSetter.cs.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 1
